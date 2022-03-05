@@ -1,7 +1,8 @@
 https://www.typescriptlang.org
 instalacja TS: npm install typescript --save-dev
-kompilacja: npx tsc plik.ts
+development server: npm start
 
 sec1(1-9)
 -instalacja TS: npm install typescript --save-dev
 -kompilacja: npx tsc plik.ts -> plik.js
+-empty base project: npm init -> package.json | npm install --save-dev typescript | npm install --save-dev lite-server | in package.json add script: "start": "lite-server"
