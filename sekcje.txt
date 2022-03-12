@@ -11,14 +11,14 @@ sec1(1-9)
 --npm init -> package.json | npm install --save-dev typescript | npm install --save-dev lite-server | in package.json add script: "start": "lite-server"
 --development server: npm start (ale kompilacja nadal musi być ręczna: npx tsc plik.ts)
 
-sec2(10-32)
+sec2(10-32) Basic Types
 -core types: number, string, boolean, objects, arrays
 -tuples, enums, any
 -union types, literal types, custom(alias) types
 -function return types, void, 'Function' type, function types
 -'unknown' type, 'never' type
 
-sec3(33-47)
+sec3(33-47) Compiler config, Debugging
 -watch mode jednego pliku: npx tsc plik.ts --watch (lub -w)
 -watch mode całego projektu
 --npx tsc --init (tylko raz! -> tsconfig.json)
@@ -33,3 +33,6 @@ sec3(33-47)
 --Run | Start Debugging | (Chrome) 
 --launch.json: http://localhost:3000
 --Run | Start Debugging
+
+sec4(48-56) ES6
+
