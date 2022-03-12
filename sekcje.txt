@@ -1,6 +1,7 @@
 https://www.typescriptlang.org
 instalacja TS: npm install typescript --save-dev
 kompilacja: pojedynczego pliku: npx tsc plik.ts
+kompilacja ciągła projektu: npx tsc --init (tylko raz), potem npx tsc --watch
 development server: npm start
 
 sec1(1-9)
@@ -16,3 +17,19 @@ sec2(10-32)
 -union types, literal types, custom(alias) types
 -function return types, void, 'Function' type, function types
 -'unknown' type, 'never' type
+
+sec3(33-47)
+-watch mode jednego pliku: npx tsc plik.ts --watch (lub -w)
+-watch mode całego projektu
+--npx tsc --init (tylko raz! -> tsconfig.json)
+--npx tsc --watch / npx tsc -w -kompilacja ciągła całego projektu
+-excluding files from compilation
+-enabling source maps
+-rootDir (src), outDir (dist)
+-stop emitting js files on ts errors
+-debugging in VSC: 
+--tsconfig.json: "sourceMap": true
+--mark a breakpoint
+--Run | Start Debugging | (Chrome) 
+--launch.json: http://localhost:3000
+--Run | Start Debugging
