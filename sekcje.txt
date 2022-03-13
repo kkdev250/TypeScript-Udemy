@@ -46,3 +46,11 @@ sec5(57-81) Classes & Interfaces
 --static fields and methods
 --abstract classes and methods
 --singletons, private constructors
+-Interfaces
+--readonly allowed, private/public not
+--implement/extend class vs interface:
+---class implements interface1, interface2...
+---class extends only_one_class;
+---interface extends interface1, 
+--interfaces for functions
+--optional members in interfaces and classes
