@@ -36,3 +36,13 @@ sec3(33-47) Compiler config, Debugging
 
 sec4(48-56) ES6
 
+sec5(57-81) Classes & Interfaces
+-Classes: 
+--private, public, protected, readonly memmbers
+--construtor shorthand initialization
+--inheritance: private fields do not inherit! (protected yes)
+--overriding methods
+--getters & setters
+--static fields and methods
+--abstract classes and methods
+--singletons, private constructors
