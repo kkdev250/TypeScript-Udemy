@@ -51,6 +51,15 @@ sec5(57-81) Classes & Interfaces
 --implement/extend class vs interface:
 ---class implements interface1, interface2...
 ---class extends only_one_class;
----interface extends interface1, 
+---interface extends interface1, interface2...
 --interfaces for functions
 --optional members in interfaces and classes
+
+sec6(82-92) Advanced Types
+-intersection types
+-type guards: if...: typeof, instanceof, 'property' in object, 
+-type casting, ! (not null)
+-index properties
+-function overloads
+-optional chaining
+-nullish coalescing
