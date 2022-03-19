@@ -61,5 +61,15 @@ sec6(82-92) Advanced Types
 -type casting, ! (not null)
 -index properties
 -function overloads
--optional chaining
--nullish coalescing
+-optional chaining (?)
+-nullish coalescing (??)
+
+sec7(93-103) Generics
+-generic types, 
+-generic functions
+-generic constraints, 'keyof' constraint
+-generic classes
+-'Partial' generic type - makes all properies optional - '?'
+-'Readonly' generic type
+
+sec8(104-119) Decorators
