@@ -73,3 +73,14 @@ sec7(93-103) Generics
 -'Readonly' generic type
 
 sec8(104-119) Decorators
+-tsconfig.json: "experimentalDecorators": true
+-decorator function
+-decorator factory
+-'_' function argument - means that it won't be used in function - to turn off warning
+-decorators execution order: bottom->up
+-class decorator
+-property decorator
+-accessor decorator
+-method decorator
+-parameter decorator
+-decorator return values
