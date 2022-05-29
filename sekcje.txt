@@ -88,3 +88,9 @@ sec8(104-119) Decorators
 sec9(120-139) Drag&Drop Project 
 
 sec10(140-150) Modules & Namespaces
+-namespaces: 
+--setting "outFile": "./dist/bundle.js" option in tsconfig.json, and change "module": from "commonjs" to "amd"
+--import "dist/bundle.js" in index.html
+--exporting: namespace{ export... }
+--importing: /// <reference path="file.ts" />
+-ES6 modules
