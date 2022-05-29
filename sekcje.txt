@@ -94,3 +94,5 @@ sec10(140-150) Modules & Namespaces
 --exporting: namespace{ export... }
 --importing: /// <reference path="file.ts" />
 -ES6 modules
+--setting "module": to "es2015", comment out "outFile" in tsconfig.json
+--import "app.js" in index.html, add type="module", delete "defer"
