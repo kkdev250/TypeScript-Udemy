@@ -96,3 +96,5 @@ sec10(140-150) Modules & Namespaces
 -ES6 modules
 --setting "module": to "es2015", comment out "outFile" in tsconfig.json
 --import "app.js" in index.html, add type="module", delete "defer"
+
+sec11(151-160) Webpack with TS
