@@ -102,5 +102,9 @@ sec11(151-160) Webpack with TS
 -npm install --save-dev clean-webpack-plugin
 
 sec12(161-167) TS & libraries
--JS libraries: e.g. lodash
--TS libraries: 
+-JS libraries: e.g. lodash: 
+--install types for library: npm i --save-dev @types/lodash
+--declare keyword
+--class-transformer: npm i --save class-transformer, npm i --save reflect-metadata
+--class validator: npm i --save class-validator
+-TS libraries
