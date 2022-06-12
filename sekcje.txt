@@ -98,5 +98,9 @@ sec10(140-150) Modules & Namespaces
 --import "app.js" in index.html, add type="module", delete "defer"
 
 sec11(151-160) Webpack with TS
-npm install --save-dev webpack webpack-cli webpack-dev-server typescript ts-loader
-npm install --save-dev clean-webpack-plugin
+-npm install --save-dev webpack webpack-cli webpack-dev-server typescript ts-loader
+-npm install --save-dev clean-webpack-plugin
+
+sec12(161-167) TS & libraries
+-JS libraries: e.g. lodash
+-TS libraries: 
