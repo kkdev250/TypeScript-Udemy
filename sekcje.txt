@@ -110,3 +110,5 @@ sec12(161-167) TS & libraries
 -TS libraries
 
 sec13(168-175) "Select&Share a Place" Project
+-npm install --save axios
+-npm install --save-dev @types/googlemaps
