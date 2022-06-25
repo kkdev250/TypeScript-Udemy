@@ -85,7 +85,7 @@ sec8(104-119) Decorators
 -parameter decorator
 -decorator return values
 
-sec9(120-139) Drag&Drop Project 
+sec9(120-139) "Drag&Drop" Project 
 
 sec10(140-150) Modules & Namespaces
 -namespaces: 
@@ -108,3 +108,5 @@ sec12(161-167) TS & libraries
 --class-transformer: npm i --save class-transformer, npm i --save reflect-metadata
 --class validator: npm i --save class-validator
 -TS libraries
+
+sec13(168-175) "Select&Share a Place" Project
