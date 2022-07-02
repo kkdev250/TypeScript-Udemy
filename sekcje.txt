@@ -112,3 +112,6 @@ sec12(161-167) TS & libraries
 sec13(168-175) "Select&Share a Place" Project
 -npm install --save axios
 -npm install --save-dev @types/googlemaps
+
+sec14(176-188) TS & React
+npx create-react-app . --template typescript (. - w bieżącym foldrze)
