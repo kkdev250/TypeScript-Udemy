@@ -1,7 +1,7 @@
 https://www.typescriptlang.org
 instalacja TS: npm install typescript --save-dev
 kompilacja: pojedynczego pliku: npx tsc plik.ts
-kompilacja ciągła projektu: npx tsc --init (tylko raz), potem npx tsc --watch
+kompilacja ciągła projektu: (npm init), npx tsc --init (tylko raz), potem npx tsc --watch
 development server: npm start
 
 sec1(1-9)
@@ -115,3 +115,11 @@ sec13(168-175) "Select&Share a Place" Project
 
 sec14(176-188) TS & React
 npx create-react-app . --template typescript (. - w bieżącym foldrze)
+
+sec15(189-197) TS & Node+Express
+-npm init
+-npm install typescript --save-dev
+-npx tsc --init
+-tsconfig.json
+-npm install --save express body-parser
+-npm install --save-dev nodemon 
