@@ -122,4 +122,9 @@ sec15(189-197) TS & Node+Express
 -npx tsc --init
 -tsconfig.json
 -npm install --save express body-parser
--npm install --save-dev nodemon 
+-npm install --save-dev nodemon
+-npm install --save-dev @types/node
+-npm install --save-dev @types/express
+-npx tsc --watch
+-package.json: "start": "nodemon dist/app.js"
+-npm start
